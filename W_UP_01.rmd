@@ -1,7 +1,7 @@
 ---
 title: "W_UP_01"
-author: "your name here"
-date: "fall 2020"
+author: "Joseph"
+date: "24 aug 2021"
 output: html_document
 ---
 
@@ -43,6 +43,11 @@ $H_A$: The average number of pushups done by line players is statistically diffe
 
 ### Numerical Descriptive Results
 
+```{r}
+boxplot(pushups~position,data=mydata)
+```
+  
+this plot shows that the skill players tend to do more pushups in 2 minutes than do the line players. the bottom of the skill box is above almost all the line
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
